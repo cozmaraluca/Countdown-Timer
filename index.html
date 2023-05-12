@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0" />
+        <title> Countdown for Events </title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        </head>
+        <body>
+            <h1 id="h1">Countdown to your most important events</h1>
+            <div id="input-container" class="input-container">
+                <div class="date-container">
+                    <p id="date-text">Select the date of your event:</p>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="event-container">
+                    <p id="event-text">Choose type of event:</p>
+                        <select id="event-input">
+                            <option value="wedding">Wedding</option>
+                            <option value="birthday">Birthday</option>
+                            <option value="trip">Trip</option>
+                        </select>
+                </div>
+                <button id="btn" class="btn">OK</button>
+                <p id="message"></p>
+            </div>          
+
+ 
+            <div class="countdown-container" id="countdown-container">
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days">0</p>
+                <span>days</span>
+            </div>
+
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours">0</p>
+                <span>hours</span>
+            </div>
+
+            <div class="countdown-el minutes-c">
+                <p class="big-text" id="minutes">0</p>
+                <span>minutes</span>
+            </div>
+
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds">0</p>
+                <span>seconds</span>
+            </div>
+        </div>
+        <p id="countdown-text"></p>
+        <button id="reload-button" class="reload-button">Change the date</button>
+        </body>
+</html>

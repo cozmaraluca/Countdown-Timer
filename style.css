@@ -1,0 +1,204 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* Set box-sizing for all elements */
+*{
+    box-sizing: border-box;
+}
+
+/* Set body styles */
+body{
+    /* Set background color, size and position */
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+    /* Center content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Set min height */
+    min-height: 100vh;
+    /* Set font family */
+    font-family: "Poppins", sans-serif;
+}
+/* Set styles for the heading */
+h1{
+    /* Set font size, family and style */
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Set color */
+    color: rgb(73, 102, 165);
+    /* Set padding and margin */
+    padding: 1rem;
+    margin-top: 8%;
+}
+
+/* Set styles for the input container*/
+.input-container{
+    /* Position content */
+    display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Set styles for the date container*/
+.date-container{
+    /* Center content */
+    display: flex;
+    align-items: center;
+}
+
+/* Set styles for the date picker text*/
+#date-text{
+    /* Set font size, weight and color */
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgb(73, 102, 165);
+    /* Set padding */
+    padding: 1rem;
+}
+
+/* Set styles for the date picker*/
+#date{
+    /* Set width and height*/
+    width: 12rem;
+    height: 3rem;
+    /* Set font size, weight and color */
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(73, 102, 165);
+    /* Set padding*/
+    padding: 0.5rem;
+    /* Set border color and radius*/
+    border-color: rgb(73, 102, 165);
+    border-radius: 5px;
+}
+
+/* Set styles for the event container*/
+.event-container{
+    /* Center content */
+    display: flex;
+    align-items: center;
+}
+
+/* Set styles for the event selector text*/
+#event-text{
+    /* Set font size, weight and color */
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgb(73, 102, 165);
+    /* Set padding*/
+    padding: 1rem;
+}
+
+/* Set styles for the event selector*/
+#event-input{
+    /* Set width and height*/
+    width: 12rem;
+    height: 3rem;
+    /* Set font size, weight and color */
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(73, 102, 165);
+    /* Set padding */
+    padding: 0.5rem;
+    /* Set border color and radius*/
+    border-color: rgb(73, 102, 165);
+    border-radius: 5px;
+}
+/* Set styles for the ok button*/
+.btn{
+    /* Set width and height*/
+    width: 12rem;
+    height: 3rem;
+    /* Set font size, weight and color */
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    /* Set padding */
+    padding: 1rem;
+    /* Set border color and radius*/
+    background-color: rgb(73, 102, 165);
+    border-radius: 5px;
+
+}
+/* Set styles for the error message*/
+#message{
+    /* Set font size, weight and color */
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+}
+
+/*Elements displayed after ok button click*/
+
+/* Set styles for the countdown container*/
+.countdown-container{
+    /* Set position*/
+    position: absolute;
+    top: 30%;
+    /* Center content */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* Set color*/
+    color:rgb(73, 102, 165);
+}
+/* Set styles for the countdown numbers*/
+.big-text{
+    /* Set font size and weight*/
+    font-size: 6rem;
+    font-weight: bold;
+    /* Set line height to be equal to the font size*/
+    line-height: 1;
+    /* Set margin*/
+    margin: 0 2rem;
+}
+
+/* Set styles for countdown container's elements*/
+.countdown-el{
+    /* Centers text*/
+    text-align: center;
+}
+
+/* Set styles for countdown container's elements span*/
+.countdown-el span{
+    /* Set font size*/
+    font-size: 1.5rem;
+}
+
+/* Set styles for text specifying the event type selected*/
+#countdown-text{
+    /* Set position*/
+    position: absolute;
+    top: 50%;
+    /* Styling the font*/
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: italic;
+    color: rgb(73, 102, 165);
+    /* Set padding*/
+    padding: 1rem;
+}
+
+/* Set styles for reload button*/
+.reload-button{
+    /* Set position*/
+    position: absolute;
+    top: 80%;
+    /* Set width and height*/
+    width: 18rem;
+    height: 3rem;
+    /* Styling the font*/
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    /* Set background color*/
+    background-color: rgb(73, 102, 165);
+    /* Set border radius*/
+    border-radius: 5px;
+}
